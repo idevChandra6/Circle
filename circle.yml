@@ -3,5 +3,6 @@ machine:
     XCODE_SCHEME: FrameworkSample
     DEVELOPER_NAME: Chandra Polepeddi
     APPNAME: FrameworkSample
-#Comment
-
+test:
+  override:
+    - echo "Tests are overridden"
